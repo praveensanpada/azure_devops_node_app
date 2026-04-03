@@ -1,0 +1,17 @@
+devops/
+│
+├── app.js
+├── package.json
+├── .env
+│
+├── routes/
+│   └── apiRoutes.js
+│
+└── controllers/
+    └── apiController.js
+
+GET http://localhost:3000/api/
+GET http://localhost:3000/api/health
+GET http://localhost:3000/api/info
+GET http://localhost:3000/api/users
+GET http://localhost:3000/api/users/1
